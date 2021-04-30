@@ -1,5 +1,5 @@
-// pages/notes/[id].jsx
-import React from 'react'
+/** @jsxImportSource @theme-ui/core */
+import { jsx } from 'theme-ui'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -8,12 +8,8 @@ export default () => {
   const { id }= router.query
 
   return (
-    <div>
+    <div sx={{variant: 'containers.page'}}>
       <h1>Note: {id} </h1>
-
-      <Link href="/notes">
-        <a>Notes</a>
-      </Link>
     </div>
   )
 }

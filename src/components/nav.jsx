@@ -1,4 +1,4 @@
-/** @jsx jsx */
+/** @jsxImportSource @theme-ui/core */
 import { jsx } from 'theme-ui'
 import Link from 'next/link'
 
